@@ -1,14 +1,14 @@
 class ClaudeDoc < Formula
   desc "Documentation toolkit optimized for Claude Code AI assistant"
   homepage "https://github.com/nkyy/claude-doc-structure"
-  version "0.1.1"
+  version "0.1.2"
   
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/nkyy/claude-doc-structure/releases/download/v0.1.1/claude-docs-darwin-amd64"
-    sha256 "fef3b7f35bc63914992192701cf11cbe53b9ca1b94be14896e820f6d32f6101c"
+    url "https://github.com/nkyy/claude-doc-structure/releases/download/v0.1.2/claude-docs-darwin-amd64"
+    sha256 "53ed95b3e322b46f5b8bc0a1175d9ee4d8f444dbf69df351f69a2095d68572e4"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/nkyy/claude-doc-structure/releases/download/v0.1.1/claude-docs-darwin-arm64"
-    sha256 "80053a24ce3370307e68354b08b32d8011653dd5c08288d3ffffdbe532f767a8"
+    url "https://github.com/nkyy/claude-doc-structure/releases/download/v0.1.2/claude-docs-darwin-arm64"
+    sha256 "a7b2e0a6669bb1dcf33b5f1d0a93db613037ba731e5cdbe2d761639ef47c4241"
   end
   
   def install
